@@ -1,3 +1,10 @@
-header{display: flex; justify-content: space-evenly;}
-header > #noms > h2{}
-header > #iconsInsta > img{}
+@import url('https://fonts.googleapis.com/css2?family=Chathura:wght@800&display=swap');
+html{height: 100%;}
+body{height: 100%; margin: 0; padding: 0;}
+header{display: flex; justify-content: space-evenly; height: auto;}
+header > #noms > h2{font-size: 20px;}
+header > #iconsInsta > img{height: 10px;}
+
+#container{}
+#container > #imgProfils{display: flex; justify-content: space-evenly;}
+#container > #imgProfils > img{height: 300px;}
